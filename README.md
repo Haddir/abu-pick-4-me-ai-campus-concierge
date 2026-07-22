@@ -370,11 +370,11 @@ Team Name:
 
 Members:
 
-- Member 1
-- Member 2
-- Member 3
-- Member 4
-- Member 5
+- Suleiman Haddir Mohammed 
+- IsahAbubakarEgya 
+- Ibrahim Zugo 
+- Hayatullahi Imam Lawal
+- Anisah Muhammad Mustapha 
 
 ---
 
@@ -386,33 +386,6 @@ Please create a feature branch before opening a Pull Request.
 
 ---
 
-# 📄 License
-
-This project is licensed under the MIT License.
-
-See the LICENSE file for more information.
-
----
-
-# ❤️ Acknowledgements
-
-- Google Developer Groups on Campus ABU
-- Google DeepMind
-- Google Gemma Team
-- Ollama
-- Open Source Community
-
----
-
-# 📬 Contact
-
-For questions, collaborations, or feedback:
-
-Email: your@email.com
-
-GitHub: https://github.com/yourusername
-
----
 
 <div align="center">
 
