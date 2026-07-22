@@ -253,7 +253,7 @@ ABU-PICK-4-ME/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ABU-PICK-4-ME.git
+git clone https://github.com/haddir/abu-pick-4-me-ai-campus-concierge.git
 ```
 
 Move into the project
