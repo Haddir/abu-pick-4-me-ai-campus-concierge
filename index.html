@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abu Pick 4 Me</title>
+    <meta
+      name="description"
+      content="Abu Pick 4 Me is an AI campus concierge helping students, staff, and visitors make better and safer choices."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <a href="#top" class="brand">Abu Pick 4 Me</a>
+        <button class="menu-toggle" aria-label="Open navigation">☰</button>
+        <nav class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="section-title">AI CAMPUS CONCIERGE</p>
+            <h1>Your smart guide for safe campus decisions.</h1>
+            <p>
+              Abu Pick 4 Me helps students, staff, and other personnel find the right
+              services, make confident choices, and plan events with ease.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Try the AI concierge</a>
+              <a class="btn btn-secondary" href="#services">Explore services</a>
+            </div>
+            <div class="stats">
+              <div class="stat-card">
+                <strong>24/7</strong>
+                <span>Support</span>
+              </div>
+              <div class="stat-card">
+                <strong>Fast</strong>
+                <span>Recommendations</span>
+              </div>
+              <div class="stat-card">
+                <strong>Safe</strong>
+                <span>Campus guidance</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <h3>What Abu Pick 4 Me can do</h3>
+            <ul>
+              <li>Chat with the AI for quick recommendations</li>
+              <li>Find trusted vendors nearby</li>
+              <li>Plan occasions, events, and errands</li>
+              <li>Get safer suggestions for everyday campus life</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>Core services</h2>
+            <p>Simple tools for smarter decisions and smoother campus experiences.</p>
+          </div>
+          <div class="cards">
+            <a class="card card-link" href="#contact" data-mode="chat">
+              <h3>Chat with AI</h3>
+              <p>Ask questions and get helpful suggestions instantly for errands, support, and daily choices.</p>
+            </a>
+            <a class="card card-link" href="#contact" data-mode="vendor">
+              <h3>Find vendors</h3>
+              <p>Discover reliable providers for food, supplies, transport, and other essentials around campus.</p>
+            </a>
+            <a class="card card-link" href="#contact" data-mode="occasion">
+              <h3>Plan occasions</h3>
+              <p>Organize birthdays, meetings, and special events with clear recommendations and checklists.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Why it matters</h2>
+            <p>Abu Pick 4 Me is designed to make campus living easier, safer, and more informed.</p>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <h3>Better decisions</h3>
+              <p>Receive practical advice tailored to your needs, location, and context.</p>
+            </article>
+            <article class="card">
+              <h3>Safer choices</h3>
+              <p>Reduce uncertainty with guidance that supports responsible and protected actions.</p>
+            </article>
+            <article class="card">
+              <h3>Convenient support</h3>
+              <p>Get help for day-to-day campus tasks without long searches or delays.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container cta">
+          <div>
+            <h2>Ready to make smarter campus choices?</h2>
+            <p>Tell us what you need help with and Abu Pick 4 Me will guide you with a helpful recommendation.</p>
+          </div>
+          <div>
+            <form id="concierge-form">
+              <input type="text" placeholder="e.g. Find a safe vendor for an event" />
+              <button class="btn btn-primary" type="submit">Ask the concierge</button>
+            </form>
+            <p id="response">Your next smart campus move starts here.</p>
+            <p id="mode-indicator" class="section-title">Active mode: general chat</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2026 Abu Pick 4 Me. Smart help for campus life.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
